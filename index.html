@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakthi's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/244e06bdc9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Fresher - Computer Science</p>
+            <h1>Hi, I'm <span>Sakthivel</span><br>From Trichy</h1>
+        </div>
+    </div>
+</div>
+<!----------about---------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Highly motivated and skilled Fresher Computer Science
+                    with a passion for developing innovative software solutionsProficient in various programming languages including C,<br>
+                    Python with experience in developing web and mobile applications,designing databases, and debugging software.
+                    Collaborative team player with a proven track record of delivering high-quality work and achieving exceptional results.</p>
+                   
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('area of interest')">Area of Interest</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Python</span><br>Intermediate</li>
+                            <li><span>HTML & CSS</span><br>Intermediate</li>
+                            <li><span>SQL</span><br>Intermediate</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017</span><br>Higher Secondary</li>
+                            <li><span>2019</span><br>High School</li>
+                            <li><span>2023</span><br>B.E Computer Science & Engineering</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="area of interest">
+                        <ul>
+                            <li><span>Software Development</span><br>Creating,Designing,Deploying & Supporting Software</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Artificial intelligence</span><br>Simulation of Human intelligence</li>
+                            <li><span>IoT</span><br>The Internet of Things</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------certifications------->
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="certifications-list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>By Eduprep</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Data Science Tools</h2>
+                <p>By ICT Academy</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-brain"></i>
+                <h2>AI Powered Nutrition Analyzer For Fitness Enthusiast</h2>
+                <p>By ICT Academy</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----projects----->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="images/work-1.png" >
+                <div class="layer">
+                    <h3>Password Reset Using Face Recognition Method</h3>
+                    <p>(2 step authentication using Face ID [Face Reg Module])</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/work-2.png" >
+                <div class="layer">
+                    <h3>AI Powered Nutrition Analyzer</h3>
+                    <p>For Fitness Enthusiasts (" IBM Developer Skill Network" Project ) Issued by ICT Academy [WEBAPP] (Certified by IBM)</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/work-3.png" >
+                <div class="layer">
+                    <h3>Wireless Music Control</h3>
+                    <p>Using Hand Gesture Recognition by Deep Learning [ ConsoleApp ]</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-------Contact------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>sakthicse0406@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9361126166</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100009438477326&mibextid=rS40aB7S9Ucbxw6v"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/__Sakthiiii_?s=09"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/___.sakthi._?igsh=NGF3NmhtcXAwdDIz"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/sakthivel-s-71b63b266"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/sakthi-resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Sakthi. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<form name="submit-to-google-sheet">
+    <input name="email" type="email" placeholder="Email" required>
+    <button type="submit">Send</button>
+  </form>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyiJULFqY9U2VXBAAP4tGlNQGspvHc3Fz7Gg2xJ9glhmJ6SB0C_tV08i2xjgL0R-kiGSg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
